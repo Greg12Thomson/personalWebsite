@@ -1,0 +1,41 @@
+@import "parameters";
+
+.hero {
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    color: $dark-blue;
+    margin-bottom: 5rem;
+
+    h3 {
+        font-size: 1rem;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-weight: 300;
+    }
+
+    h1 {
+        font-size: 5rem;
+        margin-top: 1rem;
+        font-weight: bold;
+        text-shadow: 0 15px 15px rgba(0,0,0,.16);
+    }
+
+    h4 {
+        margin-top: 1rem;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    }
+
+    p {
+        font-size: .8rem;
+        margin-top: 1rem;
+    }
+}
+
+.experience {
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    color: #0f1b61;
+    margin-bottom: 5rem;
+    padding: 2rem;
+}
