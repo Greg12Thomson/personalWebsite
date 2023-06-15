@@ -52,9 +52,13 @@
 .section {
     text-align: left;
     font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
-    color: #0f1b61;
+    color: $dark-blue;
     margin-bottom: 2rem;
     padding: 2rem;
+
+    h5 {
+        letter-spacing: 2px;
+    }
 }
 
 .footer {
@@ -62,4 +66,20 @@
     color: #919795;
     letter-spacing: 3px;
     font-size: 12px;
+}
+
+.experience-card {
+    background-color: $light-blue;
+    background-image: linear-gradient(135deg, #f4f9fc 38%, #aadcec54);
+    margin-bottom: 2rem;
+    border-radius: 2rem;
+    padding: 1.8rem 1rem;
+
+    h5 {
+        font-size: 1rem;
+    }
+}
+
+.purple {
+    color: $purple;
 }

@@ -50,8 +50,21 @@ function App() {
                 Oct 2020 - Dec 2022
               </Col>
               <Col md={10}>
-                <h3>Software Engineer II • AWS</h3>
-                <p>DevOps Guru & CodeGuru Profiler</p>
+                <h3>Software Engineer II <span className="purple">•</span> AWS</h3>
+                <h5 className="subheading">DevOps Guru & CodeGuru Profiler - London, UK</h5>
+                <p>
+                  Working on both Amazon DevOps Guru and Amazon CodeGuru Profiler. <br/>
+                  <a href="https://aws.amazon.com/devops-guru/">https://aws.amazon.com/devops-guru/</a><br/>
+                  <a href="https://aws.amazon.com/codeguru/">https://aws.amazon.com/codeguru/</a>
+                </p>
+                <ul className="skills">
+                  <li>Java</li>
+                  <li>Typescript</li>
+                  <li>CDK</li>
+                  <li>JavaScript</li>
+                  <li>AWS</li>
+                  <li>React</li>
+                </ul>
               </Col>
             </Row>
 
@@ -62,7 +75,10 @@ function App() {
               </Col>
               <Col md={10}>
                 <h3>Software Engineer II • Amazon</h3>
-                <p>Prime Video</p>
+                <h5 className="subheading">Prime Video - London, UK</h5>
+                <p>
+                  Worked in the Prime Video's Builder Tools org. <br/>
+                </p>
               </Col>
             </Row>
 
@@ -73,7 +89,8 @@ function App() {
               </Col>
               <Col md={10}>
                 <h3>Software Engineer I • Amazon</h3>
-                <p>Prime Video</p>
+                <h5 className="subheading">Prime Video - London, UK</h5>
+                <p>TODO</p>
               </Col>
             </Row>
 
@@ -83,7 +100,8 @@ function App() {
               </Col>
               <Col md={10}>
                 <h3>Lab Demonstrator • University of Glasgow</h3>
-                <p>TODO</p>
+                <h5 className="subheading">Glasgow, Scotland</h5>
+                <p>Teaching Java and object-oriented software engineering to second-year students at the University of Glasgow.</p>
               </Col>
             </Row>
 
@@ -93,7 +111,8 @@ function App() {
               </Col>
               <Col md={10}>
                 <h3>Software Engineer Intern • Amazon</h3>
-                <p>People Tech</p>
+                <h5 className="subheading">People Tech - Edinburgh, Scotland</h5>
+                <p>TODO</p>
               </Col>
             </Row>
           </Container>
@@ -108,14 +127,13 @@ function App() {
             </Row>
             <hr/>
 
-            {/* AWS */}
             <Row className="experience-card">
               <Col md={2}>
                 2012 - 2017
               </Col>
               <Col md={10}>
                 <h3>University of Glasgow</h3>
-                <p>Bachelor’s Degree, Computer Software Engineering</p>
+                <h5 className="subheading">Bachelor’s Degree, Computer Software Engineering</h5>
                 <p>Grade: First Class</p>
               </Col>
             </Row>
