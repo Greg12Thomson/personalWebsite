@@ -40,3 +40,7 @@ hr {
   border: 2px solid #aadcec !important;
   width: 4rem !important;
 }
+
+.centered {
+  justify-content: center;
+}

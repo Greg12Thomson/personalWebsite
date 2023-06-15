@@ -1,5 +1,7 @@
 import React from "react";
 import { Container, Col, Row } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
 
 
 import './App.css';
@@ -19,6 +21,14 @@ function App() {
               {/* <h4>I'm a <strong>Full-Stack Developer</strong> from Edinburgh, Scotland.</h4> */}
               <h4>Full-Stack Developer</h4>
               <p>Amazon Web Services (AWS) • Java • JavaScript • TypeScript • CDK • SQL • Node • Python • Linux • Cordova</p>
+            </Col>
+          </Row>
+          <Row>
+            <Col md={12} className="scroll">
+              <Row className="centered">
+                <p>Scroll</p>
+                <FontAwesomeIcon icon={faArrowDown} />
+              </Row>                
             </Col>
           </Row>
         </Container>
