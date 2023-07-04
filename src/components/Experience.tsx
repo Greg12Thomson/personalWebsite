@@ -7,12 +7,28 @@ function Experience() {
             <Container className="experience">
                 <Row>
                     <Col md={12}>
-                    <h1>Past experience</h1>
+                    <h1>Experience</h1>
                     </Col>
                 </Row>
                 <hr/>
+
+                <h3>Experienece Summary</h3>
+                <ul>
+                    <li>5+ years as a Software Engineer for Amazon and AWS</li>
+                    <li>First class Honours Software Engineering degree from University of Glasgow</li>
+                    <li>My idea was selected for Amazon's Innovation Kickstarter and was launched as Re:Invent
+                        2021 - <a href="https://aws.amazon.com/aws-cost-management/aws-customer-carbon-footprint-tool/">AWS's Customer Carbon Footprint Tool</a></li>
+                    <li>Lead projects working with Senior Product Managers, Principal Engineers, Senior UX Designers,
+                        Documentation Writters and Managers to launch new features for AWS</li>
+                    <li>2 years working for AWS developing customer facing features for DevOps Guru and
+                        CodeGuru Profier</li>
+                    <li>2 years working for Prime Video Builder Tool creating developer tools</li>
+                    <li>1 year working for Prime Video Livingroom implementing a hybrid mechanism to allow for
+                        the new Prime Video application to be created</li>
+                </ul>
     
         
+
                 {/* AWS */}
                 <Row className="experience-card">
                     <Col md={2}>
