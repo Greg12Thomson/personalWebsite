@@ -3,17 +3,28 @@ import {Col, Container, Row} from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
 
+import Typewriter from "typewriter-effect";
+
 function Hero() {
     return (
         <Container>
           <Row className="hero">
             <Col md={8}>
-              <h3>Hello There 👋, I'm</h3>
-              {/* <h2>Hello, my name is <strong>Greg</strong></h2> */}
+              <h3>
+                <Typewriter
+                  onInit={(typewriter) => {
+                      typewriter
+                          .typeString("Hello There ")
+                          .pasteString("👋", null)
+                          .pauseFor(700)
+                          .typeString(", I'm")
+                          .start();
+                  }}
+                />
+              </h3>
               <h1>
                 Greg  
               </h1>
-              {/* <h4>I'm a <strong>Full-Stack Developer</strong> from Edinburgh, Scotland.</h4> */}
               <h4>Full-Stack Developer</h4>
               <p>Amazon Web Services (AWS) • Java • JavaScript • TypeScript • CDK • SQL • Node • Python • Linux • Cordova</p>
             </Col>

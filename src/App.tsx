@@ -1,8 +1,10 @@
 import React from "react";
 import { Container, Col, Row } from 'react-bootstrap';
-import Hero from './components/Hero'
-import Experience from './components/Experience'
+
+import Contact from './components/Contact'
 import Education from './components/Education'
+import Experience from './components/Experience'
+import Hero from './components/Hero'
 
 import './App.css';
 
@@ -47,25 +49,10 @@ function App() {
 
       <Education />
 
-      <div className="section">
-          <Container className="contact">
-            <Row>
-              <Col md={12}>
-                <h1>Contact</h1>
-              </Col>
-            </Row>
-            <hr/>
-            <p>
-              Just saying hello, ask for my CV or see if we can build something amazing that makes
-              a differnce? I'd love to hear from you. <br/><br/>
-
-              Fill in your info in the form below:
-            </p>
-          </Container>
-      </div>
+      <Contact />
 
       <div className="footer">
-        <p>© 2022 Greg Thomson</p>
+        <p>© 2023 Greg Thomson</p>
       </div>
     </div>
   );
