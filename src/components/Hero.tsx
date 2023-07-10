@@ -18,8 +18,13 @@ function Hero() {
                           .pasteString("👋", null)
                           .pauseFor(700)
                           .typeString(", I'm")
+                          .pauseFor(2000)
+                          .deleteAll()
                           .start();
                   }}
+                  options={
+                    {loop:true}
+                  }
                 />
               </h3>
               <h1>

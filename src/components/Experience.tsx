@@ -12,8 +12,8 @@ function Experience() {
                 </Row>
                 <hr/>
 
-                <h3>Experienece Summary</h3>
-                <ul>
+                <h3 className="summary-heading">Experienece Summary</h3>
+                <ul className="summary-list">
                     <li>5+ years as a Software Engineer for Amazon and AWS</li>
                     <li>First class Honours Software Engineering degree from University of Glasgow</li>
                     <li>My idea was selected for Amazon's Innovation Kickstarter and was launched as Re:Invent
