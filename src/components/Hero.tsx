@@ -1,7 +1,8 @@
 import React from 'react';
-import {Col, Container, Row} from 'react-bootstrap';
+import {Col, Container, Row, Image} from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
+import Carrot from '../images/logo-small.png';
 
 import Typewriter from "typewriter-effect";
 
@@ -30,7 +31,7 @@ function Hero() {
               <h1>
                 Greg  
               </h1>
-              <h4>Full-Stack Developer</h4>
+              <span className="sub-heading"><h4>Full-Stack Developer</h4><Image src={Carrot} className="carrot"/></span>
               <p>Amazon Web Services (AWS) • Java • JavaScript • TypeScript • CDK • SQL • Node • Python • Linux • Cordova</p>
             </Col>
           </Row>
