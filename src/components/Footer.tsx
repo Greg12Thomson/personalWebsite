@@ -8,8 +8,8 @@ function Footer() {
         <Container className="footer">
           <Row className="socials">
             <Col md={12}>   
-              <a className='link' href='https://www.linkedin.com/in/greg-thomson-3a2227129/'><FontAwesomeIcon icon={faLinkedinIn} size='2x'/></a>
-              <a href='https://github.com/Greg12Thomson'><FontAwesomeIcon icon={faGithub} size='2x' /></a>
+              <a className='link' href='https://www.linkedin.com/in/greg-thomson-3a2227129/'><FontAwesomeIcon className='grow' icon={faLinkedinIn} size='2x'/></a>
+              <a className='link' href='https://github.com/Greg12Thomson'><FontAwesomeIcon className='grow' icon={faGithub} size='2x' /></a>
             </Col>
           </Row>
           <Row className="footnote">

@@ -39,7 +39,7 @@ function Hero() {
             <Col md={12} className="scroll">
               <Row className="centered">
                 <p>Scroll</p>
-                <FontAwesomeIcon icon={faArrowDown} />
+                <FontAwesomeIcon className="bounce" icon={faArrowDown} />
               </Row>                
             </Col>
           </Row>
