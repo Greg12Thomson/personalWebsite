@@ -4,6 +4,7 @@ import { Container, Col, Row, Image } from 'react-bootstrap';
 import Contact from './components/Contact'
 import Education from './components/Education'
 import Experience from './components/Experience'
+import Footer from './components/Footer';
 import Hero from './components/Hero'
 import HeadShot from './images/headshot.jpg';
 
@@ -59,9 +60,7 @@ function App() {
 
       <Contact />
 
-      <div className="footer">
-        <p>© 2023 Greg Thomson</p>
-      </div>
+      <Footer />
     </div>
   );
 }

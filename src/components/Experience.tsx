@@ -16,7 +16,7 @@ function Experience() {
                 <ul className="summary-list">
                     <li>5+ years as a Software Engineer for Amazon and AWS</li>
                     <li>First class Honours Software Engineering degree from University of Glasgow</li>
-                    <li>My idea was selected for Amazon's Innovation Kickstarter and was launched as Re:Invent
+                    <li>My idea was selected for Amazon's Innovation Kickstarter and launched at Re:Invent
                         2021 - <a href="https://aws.amazon.com/aws-cost-management/aws-customer-carbon-footprint-tool/">AWS's Customer Carbon Footprint Tool</a></li>
                     <li>Lead projects working with Senior Product Managers, Principal Engineers, Senior UX Designers,
                         Documentation Writters and Managers to launch new features for AWS</li>

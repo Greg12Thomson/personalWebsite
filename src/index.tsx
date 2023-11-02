@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/hero.scss'
 import './styles/experience.scss'
+import './styles/footer.scss'
 import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.render(
