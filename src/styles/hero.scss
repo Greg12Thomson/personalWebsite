@@ -41,6 +41,9 @@
     letter-spacing: 3px;
     font-size: 12px;
 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     position: absolute;
     top: 90%;
 
@@ -51,7 +54,7 @@
 
 .footer {
     text-transform: uppercase;
-    color: #919795;
+    color: $grey;
     letter-spacing: 3px;
     font-size: 12px;
 }

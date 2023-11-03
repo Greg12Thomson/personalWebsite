@@ -15,12 +15,12 @@ function Experience() {
                 <h3 className="summary-heading">Experienece Summary</h3>
                 <ul className="summary-list">
                     <li>5+ years as a Software Engineer for Amazon and AWS</li>
-                    <li>First class Honours Software Engineering degree from University of Glasgow</li>
+                    <li>First-class Honours Software Engineering degree from the University of Glasgow</li>
                     <li>My idea was selected for Amazon's Innovation Kickstarter and launched at Re:Invent
                         2021 - <a href="https://aws.amazon.com/aws-cost-management/aws-customer-carbon-footprint-tool/">AWS's Customer Carbon Footprint Tool</a></li>
-                    <li>Lead projects working with Senior Product Managers, Principal Engineers, Senior UX Designers,
-                        Documentation Writters and Managers to launch new features for AWS</li>
-                    <li>2 years working for AWS developing customer facing features for DevOps Guru and
+                    <li>Led projects working with Senior Product Managers, Principal Engineers, Senior UX Designers,
+                        Documentation Writers and Managers to launch new features for AWS</li>
+                    <li>2 years working for AWS developing customer-facing features for DevOps Guru and
                         CodeGuru Profier</li>
                     <li>2 years working for Prime Video Builder Tool creating developer tools</li>
                     <li>1 year working for Prime Video Livingroom implementing a hybrid mechanism to allow for
@@ -38,20 +38,20 @@ function Experience() {
                     <h3>Software Engineer II <span className="purple">•</span> AWS</h3>
                     <h5 className="subheading">DevOps Guru & CodeGuru Profiler - London, UK</h5>
                     <p>
-                        Working as a full-stack engineer working across CodeGuru Profiler and DevOps Guru.
-                        I working with Senior Product Managers, Principal Engineers, Senior UX Designers,
-                        Documentation Writters and Managers to launch new features for both {" "}
+                        Working as a full-stack engineer across CodeGuru Profiler and DevOps Guru.
+                        I worked with Senior Product Managers, Principal Engineers, Senior UX Designers,
+                        Documentation writers and Managers to launch new features for both {" "}
                         <a href="https://aws.amazon.com/codeguru/">CodeGuru Profiler</a> and {" "} 
-                        <a href="https://aws.amazon.com/devops-guru/">DevOps Guru</a>. I lead projects such
-                        as DevOps Guru integration into RDS which led to a 30% increase in customers. I also designed, 
-                        implemented, and launched new customer-facing features for both products such as profile
-                        comparison visualizations a new onboarding workflow.<br/><br/>
+                        <a href="https://aws.amazon.com/devops-guru/">DevOps Guru</a>. I led projects such as DevOps
+                        Guru integration into RDS which led to a 30% increase in customers. I also designed,
+                        implemented, and launched new customer-facing features for both products, such as profile
+                        comparison visualizations and a new onboarding workflow.<br/><br/>
                         
-                        I also regularly improving and simplifying development and operational processes such as, <br/>
+                        I also regularly improved and simplified development and operational processes such as: <br/>
                         - Improving our teams pipelines to be fully CD and ran a project to move all of the product's
                         pipelines to full CD. <br/>
-                        - Moved away from a manually creating alarm and moved all our remaining infrastructure to CDK. <br/>
-                        - Fixed over-provisioned databases which led to a ~$1 millon saving annually.
+                        - Moved away from manually creating alarms and moved all our remaining infrastructure to CDK. <br/>
+                        - Fixed over-provisioned databases which led to a ~$1 million saving annually.
                     </p>
                     <ul className="skills">
                         <li>Java</li>
@@ -76,7 +76,7 @@ function Experience() {
                         <h3>Software Engineer II • Amazon</h3>
                         <h5 className="subheading">Prime Video - London, UK</h5>
                         <p>
-                            Designed and Implemented a predictive alarming system monitoring all Prime Video
+                            Designed and implemented a predictive alarming system monitoring all Prime Video
                             metrics to detect anomalies across all 8000+ Prime Video devices. I worked at all
                             levels of this project from requirement gathering to deployment and maintenance.<br/><br/>
                             Lead portions of the project working with senior and junior engineers. Developed on 
@@ -113,8 +113,8 @@ function Experience() {
                             gap between the specific development and testing needs of Prime Video and
                             the general-purpose tools provided by Amazon.<br/><br/>
                             Implemented and maintained an ELK stack (Elasticsearch, Logstash and Kibana)
-                            which ingested all Prime Video logs (46TB a day) to help developers to deep
-                            dive issues in their system. Designed, implemented and maintained a ticket
+                            which ingested all Prime Video logs (46TB a day) to help developers deep
+                            dive into issues in their system. Designed, implemented and maintained a ticket
                             routing system which enriched and quickly reassigned tickets to the correct
                             team developed using AWS services.
                         </p>
