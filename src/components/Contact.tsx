@@ -1,7 +1,9 @@
 import React from 'react';
-import {Col, Container, Row} from 'react-bootstrap';
+import {Button, Col, Container, Row} from 'react-bootstrap';
 
-function Contact() {
+const Contact = () => {
+    const email = "Greg12Thomson@Gmail.com"
+
     return (
       <div className="section">
         <Container className="contact">
@@ -13,10 +15,9 @@ function Contact() {
           <hr/>
           <p>
             Just saying hello, ask for my CV or see if we can build something amazing that makes
-            a differnce? I'd love to hear from you. <br/><br/>
-
-            Fill in your info in the form below:
+            a differnce? I'd love to hear from you. <br/>
           </p>
+          <Button className="contact-me" href={`mailto:${email}`}>Contact Me 🤘</Button>
         </Container>
       </div>
     );

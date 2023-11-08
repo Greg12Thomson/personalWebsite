@@ -1,0 +1,10 @@
+@import "parameters";
+
+.contact-me {
+    color: white;
+    background-color: $dark-blue;
+
+    &:hover {
+        background-color: $purple; 
+    }
+}
