@@ -24,7 +24,7 @@ const Education = () => {
                   Honours Project: "Representing Jobs Using Auto-Generated Skill Tags". Using
                   information retrieval and machine learning to auto-generate skill tags to
                   improve job recommendations in collaboration with Amazon Development Center 
-                  Scotland - 
+                  Scotland - {" "}
                   <a href="https://github.com/Greg12Thomson/honoursProject" target="_blank" rel="noopener noreferrer">
                     GitHub repository
                   </a>
