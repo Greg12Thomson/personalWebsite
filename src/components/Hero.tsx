@@ -33,7 +33,7 @@ function Hero() {
               Greg
             </h1>
             <span className="sub-heading"><h4>Full-Stack Developer</h4><Image src={Carrot} className="carrot" /></span>
-            <p>Amazon Web Services (AWS) • Java • JavaScript • TypeScript • CDK • SQL • Node • Python • Linux • Cordova</p>
+            <p>Amazon Web Services (AWS) • Java • JavaScript • TypeScript • React • SQL • Node • Python • DevOps </p>
           </Col>
         </Row>
         <Row>

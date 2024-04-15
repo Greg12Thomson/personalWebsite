@@ -31,8 +31,9 @@ function AboutMe() {
                             a full-stack engineer I have experience working closely with senior product
                             managers, senior UX designers, principal engineers and managers.<br /><br />
 
-                            I am currently taking a break from work with my wife to travel around Europe
-                            in our van, Judi! 🚐<br /><br />
+                            I have recently taken time off work to travel with my wife around Europe in our
+                            van, Judi! 🚐 I am now actively looking for a full-stack software engineering role
+                            with real customer. <br /><br />
                         </p>
                     </Col>
                     <Col md={4} sm={12}>
