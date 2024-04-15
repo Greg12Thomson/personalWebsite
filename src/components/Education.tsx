@@ -1,7 +1,7 @@
 import React from 'react';
 import {Col, Container, Row} from 'react-bootstrap';
 
-function Education() {
+const Education = () => {
     return (
         <div className="section">
           <Container className="education">

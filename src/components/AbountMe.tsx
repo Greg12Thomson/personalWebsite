@@ -3,7 +3,7 @@ import { Col, Container, Row, Image } from 'react-bootstrap';
 import HeadShot from '../images/headshot2.jpg';
 
 
-function AboutMe() {
+const AboutMe = () => {
     return (
         <div className="section">
             <Container className="experience">
@@ -33,7 +33,7 @@ function AboutMe() {
 
                             I have recently taken time off work to travel with my wife around Europe in our
                             van, Judi! 🚐 I am now actively looking for a full-stack software engineering role
-                            with real customer. <br /><br />
+                            with real customer impact. <br /><br />
                         </p>
                     </Col>
                     <Col md={4} sm={12}>

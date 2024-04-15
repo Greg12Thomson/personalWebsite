@@ -1,7 +1,7 @@
 import React from 'react';
 import {Button, Col, Container, Row} from 'react-bootstrap';
 
-const Contact = () => {
+export const Contact = () => {
     const email = "Greg12Thomson@Gmail.com"
 
     return (

@@ -6,7 +6,7 @@ import Carrot from '../images/logo-small.png';
 
 import Typewriter from "typewriter-effect";
 
-function Hero() {
+const Hero = () => {
   return (
     <header className="App-header">
       <Container>

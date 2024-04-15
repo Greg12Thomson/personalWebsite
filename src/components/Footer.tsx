@@ -3,7 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons'
 
-function Footer() {
+const Footer = () => {
   return (
     <Container className="footer">
       <Row className="socials">
@@ -15,7 +15,7 @@ function Footer() {
       <Row className="footnote">
         <Col md={12}>
           <p>
-            © Greg Thomson 2023
+            © Greg Thomson 2024
           </p>
         </Col>
       </Row>

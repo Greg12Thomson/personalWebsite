@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 
-function Experience() {
+const Experience = () => {
     return (
         <div className="section">
             <Container className="experience">
@@ -17,7 +17,10 @@ function Experience() {
                     <li>5+ years as a Software Engineer for Amazon and AWS</li>
                     <li>First-class Honours Software Engineering degree from the University of Glasgow</li>
                     <li>My idea was selected for Amazon's Innovation Kickstarter and launched at Re:Invent
-                        2021 - <a href="https://aws.amazon.com/aws-cost-management/aws-customer-carbon-footprint-tool/">AWS's Customer Carbon Footprint Tool</a></li>
+                        2021 - 
+                        <a href="https://aws.amazon.com/aws-cost-management/aws-customer-carbon-footprint-tool/" target="_blank" rel="noopener noreferrer">
+                            AWS's Customer Carbon Footprint Tool
+                        </a></li>
                     <li>Led projects working with Senior Product Managers, Principal Engineers, Senior UX Designers,
                         Documentation Writers and Managers to launch new features for AWS</li>
                     <li>2 years working for AWS developing customer-facing features for DevOps Guru and
@@ -41,8 +44,8 @@ function Experience() {
                             Working as a full-stack engineer across CodeGuru Profiler and DevOps Guru.
                             I worked with Senior Product Managers, Principal Engineers, Senior UX Designers,
                             Documentation writers and Managers to launch new features for both {" "}
-                            <a href="https://aws.amazon.com/codeguru/">CodeGuru Profiler</a> and {" "}
-                            <a href="https://aws.amazon.com/devops-guru/">DevOps Guru</a>. I led projects such as DevOps
+                            <a href="https://aws.amazon.com/codeguru/" target="_blank" rel="noopener noreferrer">CodeGuru Profiler</a> and {" "}
+                            <a href="https://aws.amazon.com/devops-guru/" target="_blank" rel="noopener noreferrer">DevOps Guru</a>. I led projects such as DevOps
                             Guru integration into RDS which led to a 30% increase in customers. I also designed,
                             implemented, and launched new customer-facing features for both products, such as profile
                             comparison visualizations and a new onboarding workflow.<br /><br />
